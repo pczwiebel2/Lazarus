@@ -1,0 +1,34 @@
+object Form1: TForm1
+  Left = -194
+  Height = 540
+  Top = 799
+  Width = 900
+  Caption = 'Form1'
+  ClientHeight = 540
+  ClientWidth = 900
+  LCLVersion = '1.2.0.3'
+  object img: TImage
+    Left = 8
+    Height = 600
+    Top = -8
+    Width = 800
+  end
+  object btZeichnen: TButton
+    Left = 809
+    Height = 44
+    Top = 479
+    Width = 79
+    Caption = 'Zeichnen'
+    OnClick = btZeichnenClick
+    TabOrder = 0
+  end
+  object btLoeschen: TButton
+    Left = 809
+    Height = 44
+    Top = 536
+    Width = 79
+    Caption = 'Löschen'
+    OnClick = btLoeschenClick
+    TabOrder = 1
+  end
+end
