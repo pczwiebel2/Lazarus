@@ -4,7 +4,7 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="4">
+    <Units Count="5">
       <Unit0>
         <Filename Value="pKirche.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -12,7 +12,7 @@
         <UsageCount Value="29"/>
       </Unit0>
       <Unit1>
-        <Filename Value="..\..\..\10Kirche\mkirche.pas"/>
+        <Filename Value="..\..\..\..\..\Oskar\Desktop\10Kirche\mkirche.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
@@ -21,14 +21,22 @@
         <UsageCount Value="20"/>
       </Unit1>
       <Unit2>
+        <Filename Value="..\..\..\10Kirche\mkirche.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="mKirche"/>
+        <UsageCount Value="20"/>
+      </Unit2>
+      <Unit3>
         <Filename Value="..\..\..\Oskar\Desktop\10Kirche\mkirche.pas"/>
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="mKirche"/>
         <UsageCount Value="22"/>
-      </Unit2>
-      <Unit3>
+      </Unit3>
+      <Unit4>
         <Filename Value="mkirche.pas"/>
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
@@ -38,11 +46,11 @@
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
         <TopLine Value="93"/>
-        <CursorPos X="62" Y="124"/>
+        <CursorPos X="53" Y="124"/>
         <UsageCount Value="12"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
-      </Unit3>
+      </Unit4>
     </Units>
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
