@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="pKirche.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="pKirche"/>
+        <UsageCount Value="29"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\..\..\Oskar\Desktop\10Kirche\mkirche.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="mKirche"/>
+        <UsageCount Value="22"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\10Kirche\mkirche.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="mKirche"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="27"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="mkirche.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="mKirche"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="79"/>
+        <CursorPos X="36" Y="97"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="8" HistoryIndex="7">
+      <Position1>
+        <Filename Value="mkirche.pas"/>
+        <Caret Line="72" Column="33" TopLine="43"/>
+      </Position1>
+      <Position2>
+        <Filename Value="mkirche.pas"/>
+        <Caret Line="88" Column="40" TopLine="52"/>
+      </Position2>
+      <Position3>
+        <Filename Value="mkirche.pas"/>
+        <Caret Line="58" Column="40" TopLine="42"/>
+      </Position3>
+      <Position4>
+        <Filename Value="mkirche.pas"/>
+        <Caret Line="92" Column="53" TopLine="77"/>
+      </Position4>
+      <Position5>
+        <Filename Value="mkirche.pas"/>
+        <Caret Line="91" Column="19" TopLine="74"/>
+      </Position5>
+      <Position6>
+        <Filename Value="mkirche.pas"/>
+        <Caret Line="122" Column="7" TopLine="91"/>
+      </Position6>
+      <Position7>
+        <Filename Value="mkirche.pas"/>
+        <Caret Line="121" Column="1" TopLine="89"/>
+      </Position7>
+      <Position8>
+        <Filename Value="mkirche.pas"/>
+        <Caret Line="122" Column="3" TopLine="90"/>
+      </Position8>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>
