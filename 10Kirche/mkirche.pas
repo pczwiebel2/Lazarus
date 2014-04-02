@@ -121,7 +121,7 @@ begin
   For i:=1 To 7 Do
   img.canvas.rectangle(310+i*60,496,345+i*60,504);
   end;
-
+                                Its a big fucking shit
 end;
 
 end;
