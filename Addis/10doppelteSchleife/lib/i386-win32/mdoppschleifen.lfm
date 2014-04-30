@@ -1,0 +1,41 @@
+object fmDreiecke: TfmDreiecke
+  Left = 245
+  Height = 600
+  Top = 111
+  Width = 800
+  Caption = 'Dreiecke zeichnen'
+  ClientHeight = 600
+  ClientWidth = 800
+  OnCreate = FormCreate
+  LCLVersion = '1.0.8.0'
+  object btZeichnen: TButton
+    Left = 0
+    Height = 81
+    Top = 0
+    Width = 145
+    Caption = 'Zeichne'
+    OnClick = btZeichnenClick
+    TabOrder = 0
+  end
+  object edEingabe: TEdit
+    Left = 29
+    Height = 23
+    Top = 80
+    Width = 80
+    TabOrder = 1
+  end
+  object lbText: TLabel
+    Left = 0
+    Height = 16
+    Top = 104
+    Width = 145
+    Caption = '(Bitte nur Zahlen eingeben)'
+    ParentColor = False
+  end
+  object imgZeichnen: TImage
+    Left = 0
+    Height = 600
+    Top = 0
+    Width = 800
+  end
+end

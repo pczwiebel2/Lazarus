@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="pDreiecke.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="pDreiecke"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mdreiecke.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="mDreiecke"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="3" Y="22"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="13" HistoryIndex="12">
+      <Position1>
+        <Filename Value="mdreiecke.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="mdreiecke.pas"/>
+        <Caret Line="25" Column="15" TopLine="6"/>
+      </Position2>
+      <Position3>
+        <Filename Value="mdreiecke.pas"/>
+        <Caret Line="29" Column="11" TopLine="1"/>
+      </Position3>
+      <Position4>
+        <Filename Value="mdreiecke.pas"/>
+        <Caret Line="31" Column="11" TopLine="1"/>
+      </Position4>
+      <Position5>
+        <Filename Value="mdreiecke.pas"/>
+        <Caret Line="38" Column="6" TopLine="1"/>
+      </Position5>
+      <Position6>
+        <Filename Value="mdreiecke.pas"/>
+        <Caret Line="39" Column="2" TopLine="1"/>
+      </Position6>
+      <Position7>
+        <Filename Value="mdreiecke.pas"/>
+        <Caret Line="38" Column="29" TopLine="1"/>
+      </Position7>
+      <Position8>
+        <Filename Value="mdreiecke.pas"/>
+        <Caret Line="18" Column="71" TopLine="1"/>
+      </Position8>
+      <Position9>
+        <Filename Value="mdreiecke.pas"/>
+        <Caret Line="17" Column="33" TopLine="10"/>
+      </Position9>
+      <Position10>
+        <Filename Value="mdreiecke.pas"/>
+        <Caret Line="30" Column="12" TopLine="8"/>
+      </Position10>
+      <Position11>
+        <Filename Value="mdreiecke.pas"/>
+        <Caret Line="31" Column="13" TopLine="9"/>
+      </Position11>
+      <Position12>
+        <Filename Value="mdreiecke.pas"/>
+        <Caret Line="46" Column="21" TopLine="10"/>
+      </Position12>
+      <Position13>
+        <Filename Value="mdreiecke.pas"/>
+        <Caret Line="53" Column="1" TopLine="13"/>
+      </Position13>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
