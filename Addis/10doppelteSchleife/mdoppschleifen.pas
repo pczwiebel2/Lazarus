@@ -54,12 +54,12 @@ procedure TfmDreiecke.btZeichnenClick(Sender: TObject);
 begin
   for i:=1 to 10  Do
     begin
+       dreieck(2);
+       end;
        for i:=2 to 10 Do
         begin
            dreieck(213);
         end;
     end;
-
-end;
 end.
 

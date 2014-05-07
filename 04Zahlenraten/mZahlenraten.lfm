@@ -1,0 +1,67 @@
+object Form1: TForm1
+  Left = 309
+  Height = 589
+  Top = 141
+  Width = 800
+  Caption = 'Trage eine Zahl von 1-1000 ein !'
+  ClientHeight = 589
+  ClientWidth = 800
+  OnCreate = FormCreate
+  LCLVersion = '0.9.30'
+  object Button1: TButton
+    Left = 174
+    Height = 65
+    Top = 417
+    Width = 183
+    Caption = 'Raten !'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 432
+    Height = 65
+    Top = 416
+    Width = 184
+    Caption = 'Neues Spiel'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 304
+    Height = 42
+    Top = 16
+    Width = 187
+    Caption = 'Zahlenraten'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -32
+    Font.Name = '@Microsoft JhengHei UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 112
+    Height = 23
+    Top = 240
+    Width = 222
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Left = 112
+    Height = 16
+    Top = 216
+    Width = 168
+    Caption = 'Trage eine Zahl von 1-1000 ein !'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 439
+    Height = 16
+    Top = 224
+    Width = 142
+    Caption = 'Hier erscheint die Antwort!'
+    ParentColor = False
+  end
+end

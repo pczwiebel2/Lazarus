@@ -7,7 +7,7 @@ object fmDreiecke: TfmDreiecke
   ClientHeight = 600
   ClientWidth = 800
   OnCreate = FormCreate
-  LCLVersion = '1.0.8.0'
+  LCLVersion = '1.2.2.0'
   object btZeichnen: TButton
     Left = 0
     Height = 81
@@ -26,9 +26,9 @@ object fmDreiecke: TfmDreiecke
   end
   object lbText: TLabel
     Left = 0
-    Height = 16
+    Height = 15
     Top = 104
-    Width = 145
+    Width = 144
     Caption = '(Bitte nur Zahlen eingeben)'
     ParentColor = False
   end

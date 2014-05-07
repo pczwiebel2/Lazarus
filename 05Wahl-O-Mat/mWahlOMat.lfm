@@ -1,0 +1,323 @@
+object Form1: TForm1
+  Left = 43
+  Height = 600
+  Top = 185
+  Width = 665
+  Caption = 'Form1'
+  ClientHeight = 600
+  ClientWidth = 665
+  OnCreate = FormCreate
+  LCLVersion = '0.9.30'
+  object CDU: TButton
+    Left = 16
+    Height = 48
+    Top = 224
+    Width = 132
+    Caption = 'CDU'
+    OnClick = CDUClick
+    TabOrder = 0
+  end
+  object DieLinken: TButton
+    Left = 16
+    Height = 48
+    Top = 288
+    Width = 132
+    Caption = 'Die Linken'
+    OnClick = DieLinkenClick
+    TabOrder = 1
+  end
+  object SPD: TButton
+    Left = 16
+    Height = 48
+    Top = 352
+    Width = 132
+    Caption = 'SPD'
+    OnClick = SPDClick
+    TabOrder = 2
+  end
+  object NPD: TButton
+    Left = 16
+    Height = 48
+    Top = 416
+    Width = 132
+    Caption = 'NPD'
+    OnClick = NPDClick
+    TabOrder = 3
+  end
+  object FDP: TButton
+    Left = 16
+    Height = 48
+    Top = 480
+    Width = 132
+    Caption = 'FDP'
+    OnClick = FDPClick
+    TabOrder = 4
+  end
+  object lbHuerde: TLabel
+    Left = 205
+    Height = 32
+    Top = 168
+    Width = 98
+    Caption = '5% Hürde'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -27
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbas: TLabel
+    Left = 336
+    Height = 63
+    Top = 137
+    Width = 151
+    Caption = 'Absolute'#13#10'Stimmenanzahl'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -27
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbPstimmwert: TLabel
+    Left = 520
+    Height = 63
+    Top = 136
+    Width = 124
+    Caption = 'Prozentualer'#13#10'Stimmwert'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -27
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbCDUhuerde: TLabel
+    Left = 205
+    Height = 21
+    Top = 256
+    Width = 106
+    Caption = '_______________'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbDieLinkenhuerde: TLabel
+    Left = 205
+    Height = 21
+    Top = 320
+    Width = 106
+    Caption = '_______________'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbSPDhuerde: TLabel
+    Left = 205
+    Height = 21
+    Top = 384
+    Width = 106
+    Caption = '_______________'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbNPDhuerde: TLabel
+    Left = 205
+    Height = 21
+    Top = 448
+    Width = 106
+    Caption = '_______________'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbFDPhuerde: TLabel
+    Left = 205
+    Height = 21
+    Top = 512
+    Width = 106
+    Caption = '_______________'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbCDUs: TLabel
+    Left = 336
+    Height = 21
+    Top = 256
+    Width = 53
+    Caption = 'Stimmen'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbDieLinkens: TLabel
+    Left = 336
+    Height = 21
+    Top = 320
+    Width = 53
+    Caption = 'Stimmen'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbSPDs: TLabel
+    Left = 336
+    Height = 21
+    Top = 384
+    Width = 53
+    Caption = 'Stimmen'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbNPDs: TLabel
+    Left = 336
+    Height = 21
+    Top = 448
+    Width = 53
+    Caption = 'Stimmen'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbFDPs: TLabel
+    Left = 336
+    Height = 21
+    Top = 512
+    Width = 53
+    Caption = 'Stimmen'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbCDUp: TLabel
+    Left = 520
+    Height = 21
+    Top = 256
+    Width = 47
+    Caption = 'Prozent'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbSPDp: TLabel
+    Left = 520
+    Height = 21
+    Top = 384
+    Width = 47
+    Caption = 'Prozent'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbNPDp: TLabel
+    Left = 520
+    Height = 21
+    Top = 448
+    Width = 47
+    Caption = 'Prozent'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbFDPp: TLabel
+    Left = 520
+    Height = 21
+    Top = 512
+    Width = 47
+    Caption = 'Prozent'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbDieLinkenp: TLabel
+    Left = 520
+    Height = 21
+    Top = 320
+    Width = 47
+    Caption = 'Prozent'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbueberschrift: TLabel
+    Left = 96
+    Height = 32
+    Top = 34
+    Width = 122
+    Caption = 'Wahl-O-Mat'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -27
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end

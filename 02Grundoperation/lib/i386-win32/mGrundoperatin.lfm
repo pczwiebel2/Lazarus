@@ -1,0 +1,83 @@
+object Form1: TForm1
+  Left = 446
+  Height = 600
+  Top = 158
+  Width = 800
+  Caption = 'Formeloperation'
+  ClientHeight = 600
+  ClientWidth = 800
+  LCLVersion = '0.9.30'
+  object Kopieren: TButton
+    Left = 39
+    Height = 32
+    Top = 269
+    Width = 150
+    Caption = 'Kopieren'
+    OnClick = KopierenClick
+    TabOrder = 0
+  end
+  object Verschieben: TButton
+    Left = 216
+    Height = 32
+    Top = 269
+    Width = 150
+    Caption = 'Verschieben'
+    TabOrder = 1
+  end
+  object Loeschen: TButton
+    Left = 392
+    Height = 32
+    Top = 269
+    Width = 150
+    Caption = 'Löschen'
+    OnClick = LoeschenClick
+    TabOrder = 2
+  end
+  object Einfuegen: TButton
+    Left = 568
+    Height = 32
+    Top = 269
+    Width = 150
+    Caption = 'Einfügen'
+    OnClick = EinfuegenClick
+    TabOrder = 3
+  end
+  object Label1: TLabel
+    Left = 67
+    Height = 14
+    Top = 51
+    Width = 159
+    Caption = 'Grundoperationen der Informatik'
+    ParentColor = False
+  end
+  object lbEingabe: TLabel
+    Left = 184
+    Height = 14
+    Top = 200
+    Width = 39
+    Caption = 'Eingabe'
+    ParentColor = False
+  end
+  object lbAusgabe: TLabel
+    Left = 544
+    Height = 14
+    Top = 200
+    Width = 43
+    Caption = 'Ausgabe'
+    ParentColor = False
+  end
+  object edEingabe: TEdit
+    Left = 112
+    Height = 21
+    Top = 144
+    Width = 207
+    TabOrder = 4
+  end
+  object edAusgabe: TEdit
+    Left = 488
+    Height = 21
+    Top = 144
+    Width = 183
+    TabOrder = 5
+  end
+end

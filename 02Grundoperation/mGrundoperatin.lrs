@@ -1,0 +1,24 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TForm1','FORMDATA',[
+  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3#190#1#6'Height'#3'X'#2#3'Top'#3#158#0#5'W'
+  +'idth'#3' '#3#7'Caption'#6#15'Formeloperation'#12'ClientHeight'#3'X'#2#11'Cl'
+  +'ientWidth'#3' '#3#8'OnCreate'#7#10'FormCreate'#10'LCLVersion'#6#6'0.9.30'#0
+  +#7'TButton'#8'Kopieren'#4'Left'#2''''#6'Height'#2' '#3'Top'#3#13#1#5'Width'#3
+  +#150#0#7'Caption'#6#8'Kopieren'#8'TabOrder'#2#0#0#0#7'TButton'#11'Verschiebe'
+  +'n'#4'Left'#3#216#0#6'Height'#2' '#3'Top'#3#13#1#5'Width'#3#150#0#7'Caption'
+  +#6#11'Verschieben'#8'TabOrder'#2#1#0#0#7'TButton'#8'Loeschen'#4'Left'#3#136#1
+  +#6'Height'#2' '#3'Top'#3#13#1#5'Width'#3#150#0#7'Caption'#6#8'L'#195#182'sch'
+  +'en'#8'TabOrder'#2#2#0#0#7'TButton'#9'Einfuegen'#4'Left'#3'8'#2#6'Height'#2
+  +' '#3'Top'#3#13#1#5'Width'#3#150#0#7'Caption'#6#9'Einf'#195#188'gen'#8'TabOr'
+  +'der'#2#3#0#0#6'TLabel'#6'Label1'#4'Left'#2'C'#6'Height'#2#14#3'Top'#2'3'#5
+  +'Width'#3#159#0#7'Caption'#6#31'Grundoperationen der Informatik'#11'ParentCo'
+  +'lor'#8#0#0#6'TLabel'#9'lbEingabe'#4'Left'#3#184#0#6'Height'#2#14#3'Top'#3
+  +#200#0#5'Width'#2''''#7'Caption'#6#7'Eingabe'#11'ParentColor'#8#0#0#6'TLabel'
+  +#9'lbAusgabe'#4'Left'#3' '#2#6'Height'#2#14#3'Top'#3#200#0#5'Width'#2'+'#7'C'
+  +'aption'#6#7'Ausgabe'#11'ParentColor'#8#0#0#5'TEdit'#9'edEingabe'#4'Left'#2
+  +'h'#6'Height'#2#21#3'Top'#3#144#0#5'Width'#3#207#0#8'OnChange'#7#15'edEingab'
+  +'eChange'#8'TabOrder'#2#4#4'Text'#6#9'edEingabe'#0#0#5'TEdit'#9'edAusgabe'#4
+  +'Left'#3#232#1#6'Height'#2#21#3'Top'#3#144#0#5'Width'#3#183#0#8'OnChange'#7
+  +#15'edAusgabeChange'#8'TabOrder'#2#5#4'Text'#6#9'edAusgabe'#0#0#0
+]);

@@ -1,0 +1,37 @@
+object fmEinfuerung: TfmEinfuerung
+  Left = 494
+  Height = 600
+  Top = 173
+  Width = 800
+  Caption = 'fmEinfuerung'
+  ClientHeight = 600
+  ClientWidth = 800
+  LCLVersion = '0.9.30'
+  object BT1: TButton
+    Left = 200
+    Height = 25
+    Top = 168
+    Width = 73
+    Caption = 'Blau'
+    OnClick = BT1Click
+    TabOrder = 0
+  end
+  object BT2: TButton
+    Left = 296
+    Height = 25
+    Top = 168
+    Width = 75
+    Caption = 'Grün'
+    OnClick = BT2Click
+    TabOrder = 1
+  end
+  object BT3: TButton
+    Left = 400
+    Height = 25
+    Top = 168
+    Width = 75
+    Caption = 'Rot'
+    OnClick = BT3Click
+    TabOrder = 2
+  end
+end

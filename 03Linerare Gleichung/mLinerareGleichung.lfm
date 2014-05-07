@@ -1,0 +1,127 @@
+object Form1: TForm1
+  Left = 414
+  Height = 600
+  Top = 136
+  Width = 800
+  Caption = 'Form1'
+  ClientHeight = 600
+  ClientWidth = 800
+  LCLVersion = '0.9.30'
+  object edx1: TEdit
+    Left = 71
+    Height = 23
+    Top = 160
+    Width = 145
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 200
+    Height = 27
+    Top = 224
+    Width = 309
+    Caption = 'Schreib in jedes Kästchen eine Zahl '
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clGreen
+    Font.Height = -21
+    Font.Name = 'Calibri'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edx2: TEdit
+    Left = 72
+    Height = 23
+    Top = 304
+    Width = 145
+    TabOrder = 1
+  end
+  object edy1: TEdit
+    Left = 520
+    Height = 23
+    Top = 160
+    Width = 145
+    TabOrder = 2
+  end
+  object edy2: TEdit
+    Left = 520
+    Height = 23
+    Top = 304
+    Width = 145
+    TabOrder = 3
+  end
+  object Button1: TButton
+    Left = 237
+    Height = 44
+    Top = 244
+    Width = 238
+    Caption = 'Ausrechnen'
+    OnClick = Button1Click
+    TabOrder = 4
+  end
+  object lbx1: TLabel
+    Left = 48
+    Height = 16
+    Top = 160
+    Width = 22
+    Caption = 'X1='
+    ParentColor = False
+  end
+  object lby1: TLabel
+    Left = 493
+    Height = 16
+    Top = 164
+    Width = 22
+    Caption = 'Y1='
+    ParentColor = False
+  end
+  object lbx2: TLabel
+    Left = 48
+    Height = 16
+    Top = 303
+    Width = 22
+    Caption = 'X2='
+    ParentColor = False
+  end
+  object lby2: TLabel
+    Left = 499
+    Height = 16
+    Top = 307
+    Width = 22
+    Caption = 'Y2='
+    ParentColor = False
+  end
+  object lbausgabe: TLabel
+    Left = 157
+    Height = 34
+    Top = 362
+    Width = 305
+    Caption = 'Hier erscheint das Ergebnis'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clGreen
+    Font.Height = -27
+    Font.Name = 'Calibri'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 43
+    Top = 25
+    Width = 330
+    Caption = 'Lineare Funktionen'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clGreen
+    Font.Height = -37
+    Font.Name = 'Bauhaus 93'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+end

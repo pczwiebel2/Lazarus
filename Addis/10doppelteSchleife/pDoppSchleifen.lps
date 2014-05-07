@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectSession>
     <PathDelim Value="\"/>
@@ -9,20 +9,21 @@
         <Filename Value="pDoppSchleifen.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="pDoppSchleifen"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="21"/>
       </Unit0>
       <Unit1>
         <Filename Value="mdoppschleifen.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="fmDreiecke"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="mDoppSchleifen"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
         <TopLine Value="38"/>
-        <CursorPos X="25" Y="57"/>
-        <UsageCount Value="20"/>
+        <CursorPos X="23" Y="61"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -30,7 +31,7 @@
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="14" HistoryIndex="13">
+    <JumpHistory Count="16" HistoryIndex="15">
       <Position1>
         <Filename Value="mdoppschleifen.pas"/>
         <Caret Line="1" Column="1" TopLine="1"/>
@@ -87,6 +88,15 @@
         <Filename Value="mdoppschleifen.pas"/>
         <Caret Line="31" Column="13" TopLine="20"/>
       </Position14>
+      <Position15>
+        <Filename Value="mdoppschleifen.pas"/>
+        <Caret Line="57" Column="21" TopLine="39"/>
+      </Position15>
+      <Position16>
+        <Filename Value="mdoppschleifen.pas"/>
+        <Caret Line="58" Column="12" TopLine="39"/>
+      </Position16>
     </JumpHistory>
   </ProjectSession>
+  <EditorMacros Count="0"/>
 </CONFIG>

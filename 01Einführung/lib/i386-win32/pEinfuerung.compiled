@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Compiler Value="f:\IoStick\LazarusEducation\fpc\2.4.2\bin\i386-win32\fpc.exe" Date="1047030822"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -WG -vewnhi -l &quot;-FiK:\Klasse 9.1 Rathmann 13\Königsmann, Giring\01Einführung\lib\i386-win32&quot; -Fuf:\IoStick\LazarusEducation\lcl\units\i386-win32 -Fuf:\IoStick\LazarusEducation\lcl\units\i386-win32\win32 -Fuf:\IoStick\LazarusEducation\packager\units\i386-win32 &quot;-FuK:\Klasse 9.1 Rathmann 13\Königsmann, Giring\01Einführung\&quot; -Fu. &quot;-FUK:\Klasse 9.1 Rathmann 13\Königsmann, Giring\01Einführung\lib\i386-win32\&quot; -opEinfuerung.exe -dLCL -dLCLwin32 pEinfuerung.lpr"/>
+</CONFIG>

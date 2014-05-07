@@ -1,0 +1,17 @@
+object Form1: TForm1
+  Left = 283
+  Height = 600
+  Top = 147
+  Width = 800
+  Caption = 'Schleifen'
+  ClientHeight = 600
+  ClientWidth = 800
+  LCLVersion = '1.0.8.0'
+  object img: TImage
+    Left = 0
+    Height = 600
+    Top = 0
+    Width = 800
+    OnClick = imgClick
+  end
+end
